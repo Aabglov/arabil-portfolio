@@ -1,0 +1,35 @@
+body {
+	background-color: #EEEEEE;
+	padding-top: 90px;
+}
+img {
+	height: 100%;
+	width: 100%;
+
+}
+
+nav a{
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+nav ul {
+	float: center;
+	list-style: none;
+	padding-top: 120px;
+}
+
+nav ul li {
+	color: white;
+	border: outset;
+	border-color: black;
+	border-spacing: middle;
+	margin-bottom: 60px;
+	padding-top: 3px;
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	background-color: #000000;
+
+}
