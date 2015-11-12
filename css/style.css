@@ -2,10 +2,15 @@ body {
 	background-color: #EEEEEE;
 	padding-top: 90px;
 }
+
 img {
 	height: 100%;
 	width: 100%;
 
+}
+
+#home,#portfolio,#connect{
+	width:120px;
 }
 
 nav a{
@@ -31,5 +36,17 @@ nav ul li {
 	font-family: 'Vollkorn', serif;
 	text-align: center;
 	background-color: #000000;
+	overflow:hidden;
+	height:30px;
 
+}
+
+nav ul li ul li{
+	display:inline;
+	margin-bottom:0;
+	text-decoration: none;
+}
+
+nav ul li ul{
+	padding-top:0;
 }
