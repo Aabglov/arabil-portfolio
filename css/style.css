@@ -1,52 +1,30 @@
 body {
 	background-color: #EEEEEE;
-	padding-top: 90px;
+	height:100%;
+  width:100%;
 }
 
 img {
 	height: 100%;
 	width: 100%;
-
 }
 
-#home,#portfolio,#connect{
-	width:120px;
+.top-bar .name {
+  overflow: hidden;
 }
 
-nav a{
-	color: white;
-	font-size: 16px;
-	text-decoration: none;
-	text-transform: uppercase;
+.fullbleed {
+  z-index:10;
+  position:relative;
+  margin-top:-45px;
+  width: 100%;
+  height: calc(100% + 45px);
+  /*background-image: url('../img/retrofix_day.jpg');*/
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-nav ul {
-	float: center;
-	list-style: none;
-	padding-top: 120px;
-}
-
-nav ul li {
-	color: white;
-	border: outset;
-	border-color: black;
-	border-spacing: middle;
-	margin-bottom: 60px;
-	padding-top: 3px;
-	font-family: 'Vollkorn', serif;
-	text-align: center;
-	background-color: #000000;
-	overflow:hidden;
-	height:30px;
-
-}
-
-nav ul li ul li{
-	display:inline;
-	margin-bottom:0;
-	text-decoration: none;
-}
-
-nav ul li ul{
-	padding-top:0;
+.container{
+  padding-top:45px;
+  height:100%;
 }
